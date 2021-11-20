@@ -24,5 +24,5 @@ The purpose of this repository is to provide a Clang-Format configuration for Un
 2. Copy+Paste the contents of the .clang-format from this repository into the newly generated `.clang-format` file. 
 3. You can now format files with `Ctrl+K+D`
 
-**Optional:** You can enable format on save by installing [this extension](https://marketplace.visualstudio.com/items?itemName=mynkow.FormatdocumentonSave).
+**Optional:** You can enable `format on save` by installing [this extension](https://marketplace.visualstudio.com/items?itemName=mynkow.FormatdocumentonSave).
 

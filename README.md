@@ -1,6 +1,8 @@
 ![Before and After](./before_after_clang_format.gif)
 
 # Clang Format for Unreal Engine C++
+Automatically format your Unreal Engine C++ as per [Epic's Coding Standard](https://docs.unrealengine.com/4.27/en-US/ProductionPipelines/DevelopmentSetup/CodingStandard/).
+
 The purpose of this repository is to provide a Clang-Format configuration for Unreal Engine C++ and instructions for how to use it.
 
 ## Get the .clang-format file

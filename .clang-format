@@ -1,11 +1,14 @@
+StatementMacros: ['UPROPERTY', 'UFUNCTION', 'UCLASS', 'USTRUCT', 'UENUM', 'UINTERFACE', 'GENERATED_BODY']
 Language: Cpp
 BasedOnStyle: LLVM
+
 AccessModifierOffset: -4
 AlignEscapedNewlines: Left
-AllowShortEnumsOnASingleLine: false
 AllowShortBlocksOnASingleLine: Empty
+AllowShortEnumsOnASingleLine: false
 AllowShortFunctionsOnASingleLine: Inline
-BraceWrapping: 
+AllowShortLambdasOnASingleLine: None
+BraceWrapping:
   AfterCaseLabel: true
   AfterClass: true
   AfterControlStatement: true
@@ -18,15 +21,16 @@ BraceWrapping:
   AfterExternBlock: true
   BeforeCatch: true
   BeforeElse: true
-  IndentBraces: true
   BeforeLambdaBody: true
   BeforeWhile: true
-BreakBeforeBraces: Allman
+  IndentBraces: false
+BreakBeforeBraces: Custom
 BreakBeforeInheritanceComma: true
-BreakConstructorInitializersBeforeComma: true
+BreakConstructorInitializers: BeforeComma
 BreakStringLiterals: false
 ColumnLimit: 0
 ConstructorInitializerAllOnOneLineOrOnePerLine: true
+IndentCaseBlocks: true
 IndentCaseLabels: true
 IndentWidth: 4
 NamespaceIndentation: All

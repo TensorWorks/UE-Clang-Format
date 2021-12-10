@@ -3,7 +3,9 @@ Language: Cpp
 BasedOnStyle: LLVM
 
 AccessModifierOffset: -4
+AlignAfterOpenBracket: DontAlign
 AlignEscapedNewlines: Left
+AlignOperands: DontAlign
 AllowShortBlocksOnASingleLine: Empty
 AllowShortEnumsOnASingleLine: false
 AllowShortFunctionsOnASingleLine: Inline
@@ -24,12 +26,15 @@ BraceWrapping:
   BeforeLambdaBody: true
   BeforeWhile: true
   IndentBraces: false
+BreakBeforeBinaryOperators: NonAssignment
 BreakBeforeBraces: Custom
 BreakBeforeInheritanceComma: true
+BreakBeforeTernaryOperators: true
 BreakConstructorInitializers: BeforeComma
 BreakStringLiterals: false
 ColumnLimit: 0
 ConstructorInitializerAllOnOneLineOrOnePerLine: true
+Cpp11BracedListStyle: false
 IndentCaseBlocks: true
 IndentCaseLabels: true
 IndentWidth: 4

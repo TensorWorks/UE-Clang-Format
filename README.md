@@ -28,3 +28,6 @@ The purpose of this repository is to provide a Clang-Format configuration for Un
 
 **Optional:** You can enable `format on save` by installing [this extension](https://marketplace.visualstudio.com/items?itemName=mynkow.FormatdocumentonSave).
 
+## Limitations
+1. Method chaining is not supported by clang-format and offers inconsistent results, especially inside of square brackets (`[`, `]`) such as used extensively by Slate.
+2. Single-line lambdas are incompatible with Allman-style brace wrapping and cannot be supported with the currently available ruleset.

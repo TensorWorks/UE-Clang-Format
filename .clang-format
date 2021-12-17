@@ -6,10 +6,11 @@ AccessModifierOffset: -4
 AlignAfterOpenBracket: DontAlign
 AlignEscapedNewlines: Left
 AlignOperands: DontAlign
+AlignTrailingComments: true
 AllowShortBlocksOnASingleLine: Empty
 AllowShortEnumsOnASingleLine: false
 AllowShortFunctionsOnASingleLine: Inline
-AllowShortLambdasOnASingleLine: None
+AllowShortLambdasOnASingleLine: All
 BraceWrapping:
   AfterCaseLabel: true
   AfterClass: true
@@ -23,7 +24,7 @@ BraceWrapping:
   AfterExternBlock: true
   BeforeCatch: true
   BeforeElse: true
-  BeforeLambdaBody: true
+  BeforeLambdaBody: false
   BeforeWhile: true
   IndentBraces: false
 BreakBeforeBinaryOperators: NonAssignment
@@ -35,6 +36,7 @@ BreakStringLiterals: false
 ColumnLimit: 0
 ConstructorInitializerAllOnOneLineOrOnePerLine: true
 Cpp11BracedListStyle: false
+EmptyLineBeforeAccessModifier: LogicalBlock
 IndentCaseBlocks: true
 IndentCaseLabels: true
 IndentWidth: 4
